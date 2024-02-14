@@ -1,0 +1,4 @@
+{
+  "$schema": "schema.json",
+  "wrongField": "lorem ipsum"
+}

@@ -1,0 +1,19 @@
+{
+  "$id": "https://example.com/schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "required": [
+    "field"
+  ],
+  "title": "title",
+  "type": "object",
+  "properties": {
+    "field": {
+      "type": "string"
+    },
+    "$schema": {
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}
