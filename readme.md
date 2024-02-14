@@ -23,7 +23,13 @@ Schema validation errors were encountered.
 
 result:
 ```
-ok -- validation done
-The following files were checked:
-  invalid-file.json
+Schema validation errors were encountered.
+  invalid-file.json::$.type: 'should not be present' is not valid under any of the given schemas
+  Underlying errors caused this.
+
+  Best Match:
+    $.type: 'should not be present' is not one of ['array', 'boolean', 'integer', 'null', 'number', 'object', 'string']
+  All Errors:
+    $.type: 'should not be present' is not one of ['array', 'boolean', 'integer', 'null', 'number', 'object', 'string']
+    $.type: 'should not be present' is not of type 'array'
 ```
